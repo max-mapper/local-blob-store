@@ -1,0 +1,27 @@
+{
+  "name": "local-blob-store",
+  "version": "1.0.0",
+  "description": "a blob store backend that stores blobs locally on the filesystem",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "max ogden",
+  "license": "BSD",
+  "devDependencies": {
+    "abstract-blob-store": "^1.1.1",
+    "rimraf": "^2.2.8"
+  },
+  "dependencies": {
+    "content-addressable-store": "^1.5.1",
+    "debug": "^1.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/local-blob-store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/local-blob-store/issues"
+  },
+  "homepage": "https://github.com/maxogden/local-blob-store"
+}
