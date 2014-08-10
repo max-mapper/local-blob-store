@@ -18,7 +18,6 @@ var common = {
   },
   teardown: function(t, store, blob, cb) {
     rimraf(blobPath, cb)
-    cb()
   }
 }
 
