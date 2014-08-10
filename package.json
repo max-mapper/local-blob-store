@@ -1,6 +1,6 @@
 {
   "name": "local-blob-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a blob store backend that stores blobs locally on the filesystem",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "content-addressable-store": "^1.5.1",
-    "debug": "^1.0.4"
+    "debug": "^1.0.4",
+    "tape": "^2.14.0"
   },
   "repository": {
     "type": "git",
