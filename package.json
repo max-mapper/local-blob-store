@@ -1,6 +1,6 @@
 {
   "name": "local-blob-store",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a blob store backend that stores blobs locally on the filesystem",
   "main": "index.js",
   "scripts": {
